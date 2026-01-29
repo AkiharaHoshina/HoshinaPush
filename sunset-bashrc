@@ -24,6 +24,8 @@ sshd
 #井别名
 alias showfetch='hyfetch --ascii-file ~/newasc.txt'
 alias glear='source ~/.bashrc'
+alias suitdo='sudo'
+alias gay='git'
 #当启动时初始化界面
 clear
 #sleep 0.15
