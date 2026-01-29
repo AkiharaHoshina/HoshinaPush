@@ -1,6 +1,6 @@
 #Hoshina Push Service
 alias hps.version='sh ~/.hps/version.sh'
-alias hps.upgrade='sh ~/.hps/upgrade.sh'
+alias hps.upgrade='sh ~/.hps/upgrade－sunset.sh'
 
 # 颜色定义
 BLUEBERRY="\[\e[38;2;70;80;200m\]"          # 蓝莓色（用于 \u，标记为 hoshina）
