@@ -9,6 +9,14 @@ pkg install fastfetch
 echo "已经安装fastfetch"
 pkg install python-pip
 echo "已经安装pip"
+pkg install neovim
+echo "已经安装neovim"
+pkg install git
+echo "已经安装git"
+pkg install nodejs
+echo "已经安装nodejs"
+pkg install bat lsd
+echo "已经安装bat和lsd"
 pip install --upgrade hyfetch
 echo "已经安装hyfetch"
 echo "正在插入石山"
