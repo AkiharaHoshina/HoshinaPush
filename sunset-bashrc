@@ -1,0 +1,26 @@
+# 颜色定义
+BLUEBERRY="\[\e[38;2;70;80;200m\]"          # 蓝莓色（用于 \u，标记为 hoshina）
+SUNSET="\[\e[38;2;255;140;0m\]"             # 日落橙（station_sunset）
+GREEN_BRIGHT="\[\e[92m\]"                   # 亮绿色（路径）
+RESET="\[\e[0m\]"
+
+# 跨性别旗彩虹色（粉-白-蓝-白-粉）
+TRANS_PINK="\[\e[38;2;255;153;170m\]"
+TRANS_WHITE="\[\e[38;2;255;255;255m\]"
+TRANS_BLUE="\[\e[38;2;91;206;250m\]"
+
+TRANS_ARROW="${TRANS_PINK}>${TRANS_WHITE}>${TRANS_BLUE}>${TRANS_WHITE}>${TRANS_PINK}>"
+
+# 设置 PS1
+export PS1="[\t] ${BLUEBERRY}\u${RESET}@${SUNSET}project_sunset${RESET} ${GREEN_BRIGHT}\w${RESET} ${TRANS_ARROW}${RESET} "
+#操烂hyfetch的比
+export HYFETCH_DONT_WARN_RUST=1
+#傻傻喝的
+sshd
+#井别名
+alias showfetch='hyfetch --ascii-file ~/newasc.txt'
+alias glear='source ~/.bashrc'
+#当启动时初始化界面
+clear
+#sleep 0.15
+showfetch
